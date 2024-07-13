@@ -11,7 +11,7 @@
 
 .nav-container ul {
     display: flex;
-    gap: 70px;
+    gap: 60px;
     padding: 15px 147px 15px 147px;
     justify-content: flex-end;
     align-items: center;
@@ -27,7 +27,27 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    cursor: pointer;
+    padding: 15px;
+}
+.nav-container ul li a:hover{
+    background-color: whitesmoke;
+}
 
+@media screen and (max-width:992px){
 
+    .nav-container ul{
+        justify-content: center;
+
+    }
+
+}
+@media screen and (max-width:576px){
+
+    .nav-container ul{
+        justify-content: center;
+        gap: 5px;
+
+    }
 
 }

@@ -7,8 +7,6 @@
     text-decoration: none;
 }
 
-.nav-container {}
-
 .nav-container ul {
     display: flex;
     gap: 60px;
@@ -126,4 +124,20 @@
     background: linear-gradient(0.00deg, rgb(255, 128, 99) -28.333%, rgb(244, 96, 96) 95.833%);
     margin-top: 24px;
     cursor: pointer;
+}
+
+@media screen and (max-width:576px){
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding:5px;
+    
+    }
+    .box-4{
+        padding-left: 5px;
+    }
+    .box-{
+        margin: 0;
+    }
+
 }
